@@ -25,8 +25,8 @@
 | ✅ 4 | Completed | String Manipulation |
 | ✅ 5 | Completed | Lists |
 | ✅ 6 | Completed | Tuples |
-| ⬜ 7 | Not Started | Sets |
-| ⬜ 8 | Not Started | Dictionaries |
+| ✅ 7 | Completed | Sets |
+| ✅ 8 | Completed | Dictionaries |
 | ⬜ 9 | Not Started | Conditionals |
 | ⬜ 10 | Not Started | Loops |
 | ⬜ 11 | Not Started | Functions |
@@ -63,6 +63,8 @@
 ├── Day-04/
 ├── Day-05/
 ├── Day-06/
+├── Day-07/
+├── Day-08/
 │
 ├── README.md
 ├── LICENSE
@@ -108,6 +110,27 @@
 - Tuple to List Conversion
 - Combining Tuples
 
+## ✅ Day 7
+- Sets
+- Adding and Removing Set Elements
+- Set Union
+- Set Intersection
+- Subsets
+- Disjoint Sets
+- Symmetric Difference
+- Converting Lists to Sets
+
+## ✅ Day 8
+- Dictionaries
+- Dictionary Keys & Values
+- Nested Dictionaries
+- Dictionary Methods
+- `get()`
+- `keys()`
+- `values()`
+- `items()`
+- Modifying Dictionary Values
+- Deleting Dictionary Items
 ---
 
 # 🛠 Tech Stack
@@ -151,10 +174,10 @@ RAG & AI Applications
 
 # 📊 Current Progress
 
-- ✅ Completed: **6 / 30 Days**
-- ⏳ Remaining: **24 Days**
+- ✅ Completed: **8 / 30 Days**
+- ⏳ Remaining: **22 Days**
 
-**Overall Progress:** **20%**
+**Overall Progress:** **26.7%**
 
 ---
 
