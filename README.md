@@ -4,7 +4,7 @@
 
 ---
 
-# 🎯 Objectives
+## 🎯 Objectives
 
 - Build strong Python fundamentals
 - Learn to write clean and readable code
@@ -27,28 +27,28 @@
 | ✅ 6 | Completed | Tuples |
 | ✅ 7 | Completed | Sets |
 | ✅ 8 | Completed | Dictionaries |
-| ⬜ 9 | Not Started | Conditionals |
-| ⬜ 10 | Not Started | Loops |
-| ⬜ 11 | Not Started | Functions |
-| ⬜ 12 | Not Started | Modules |
-| ⬜ 13 | Not Started | List Comprehension |
-| ⬜ 14 | Not Started |  |
-| ⬜ 15 | Not Started |  |
-| ⬜ 16 | Not Started |  |
-| ⬜ 17 | Not Started |  |
-| ⬜ 18 | Not Started |  |
-| ⬜ 19 | Not Started |  |
-| ⬜ 20 | Not Started |  |
+| ✅ 9 | Completed | Conditionals |
+| ✅ 10 | Completed | Loops & Pattern Problems |
+| ⬜ 11 | Not Started | |
+| ⬜ 12 | Not Started | |
+| ⬜ 13 | Not Started | |
+| ⬜ 14 | Not Started | |
+| ⬜ 15 | Not Started | |
+| ⬜ 16 | Not Started | |
+| ⬜ 17 | Not Started | |
+| ⬜ 18 | Not Started | |
+| ⬜ 19 | Not Started | |
+| ⬜ 20 | Not Started | |
 | ⬜ 21 | Not Started | |
-| ⬜ 22 | Not Started |  |
-| ⬜ 23 | Not Started |  |
-| ⬜ 24 | Not Started |  |
-| ⬜ 25 | Not Started |  |
-| ⬜ 26 | Not Started |  |
-| ⬜ 27 | Not Started |  |
+| ⬜ 22 | Not Started | |
+| ⬜ 23 | Not Started | |
+| ⬜ 24 | Not Started | |
+| ⬜ 25 | Not Started | |
+| ⬜ 26 | Not Started | |
+| ⬜ 27 | Not Started | |
 | ⬜ 28 | Not Started | |
-| ⬜ 29 | Not Started |  |
-| ⬜ 30 | Not Started |  |
+| ⬜ 29 | Not Started | |
+| ⬜ 30 | Not Started | |
 
 ---
 
@@ -65,6 +65,8 @@
 ├── Day-06/
 ├── Day-07/
 ├── Day-08/
+├── Day-09/
+├── Day-10/
 │
 ├── README.md
 ├── LICENSE
@@ -90,7 +92,7 @@
 - Multiple Variable Assignment
 
 ## ✅ Day 3
-- Operators
+- Python Operators
 
 ## ✅ Day 4
 - String Manipulation
@@ -100,15 +102,13 @@
 - List Indexing & Slicing
 - List Methods
 - Nested Lists
-- List Operations
 
 ## ✅ Day 6
 - Tuples
-- Tuple Packing & Unpacking
+- Tuple Operations
 - Tuple Slicing
 - Tuple Membership
 - Tuple to List Conversion
-- Combining Tuples
 
 ## ✅ Day 7
 - Sets
@@ -131,6 +131,27 @@
 - `items()`
 - Modifying Dictionary Values
 - Deleting Dictionary Items
+
+## ✅ Day 9
+- `if`, `elif`, and `else`
+- Comparing values with conditional statements
+- Nested conditions
+- User input with `input()`
+- Integer conversion with `int()`
+- Calculating differences with conditionals
+- Using conditions to compare two numbers
+
+## ✅ Day 10
+- `for` Loops
+- `while` Loops
+- `range()`
+- Nested Loops
+- Looping Through Lists
+- Even and Odd Numbers
+- Accumulating Sums
+- Reversing Lists with Loops
+- Pattern Problems
+
 ---
 
 # 🛠 Tech Stack
@@ -139,6 +160,7 @@
 - Git
 - GitHub
 - VS Code
+- Jupyter Notebook
 
 ---
 
@@ -174,10 +196,10 @@ RAG & AI Applications
 
 # 📊 Current Progress
 
-- ✅ Completed: **8 / 30 Days**
-- ⏳ Remaining: **22 Days**
+- ✅ Completed: **10 / 30 Days**
+- ⏳ Remaining: **20 Days**
 
-**Overall Progress:** **26.7%**
+**Overall Progress:** **33.3%**
 
 ---
 
@@ -187,11 +209,11 @@ Throughout this challenge I'm focusing on:
 
 - Writing clean Python code
 - Understanding programming fundamentals
-- Building strong problem-solving skills
+- Developing problem-solving skills
+- Building consistent coding habits
 - Using Git & GitHub professionally
-- Developing consistent coding habits
 - Preparing for Software Engineering interviews
-- Building a solid foundation for AI Engineering
+- Building a strong foundation for AI Engineering
 
 ---
 
