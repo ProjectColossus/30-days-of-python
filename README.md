@@ -29,7 +29,7 @@
 | ✅ 8 | Completed | Dictionaries |
 | ✅ 9 | Completed | Conditionals |
 | ✅ 10 | Completed | Loops & Pattern Problems |
-| ⬜ 11 | Not Started | |
+| ✅ 11 | Completed | Functions |
 | ⬜ 12 | Not Started | |
 | ⬜ 13 | Not Started | |
 | ⬜ 14 | Not Started | |
@@ -67,6 +67,7 @@
 ├── Day-08/
 ├── Day-09/
 ├── Day-10/
+├── Day-11/
 │
 ├── README.md
 ├── LICENSE
@@ -152,6 +153,16 @@
 - Reversing Lists with Loops
 - Pattern Problems
 
+## ✅ Day 11
+- Defining Functions
+- Function Parameters
+- Return Values
+- Conditional Logic in Functions
+- Working with Lists in Functions
+- Looping Inside Functions
+- Mathematical Functions
+- Using the `math` Module
+
 ---
 
 # 🛠 Tech Stack
@@ -196,10 +207,10 @@ RAG & AI Applications
 
 # 📊 Current Progress
 
-- ✅ Completed: **10 / 30 Days**
-- ⏳ Remaining: **20 Days**
+- ✅ Completed: **11 / 30 Days**
+- ⏳ Remaining: **19 Days**
 
-**Overall Progress:** **33.3%**
+**Overall Progress:** **36.7%**
 
 ---
 
