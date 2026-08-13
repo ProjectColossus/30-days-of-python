@@ -139,6 +139,9 @@ def sum_of_odds(n):
     
 print(sum_of_odds(5))
 
+
+##LEVEL 2
+
 ##Declare a function named sum_of_even. It takes a number parameter and it adds all the even numbers in that - range.
 def sum_of_even(num):
     even = 0
@@ -149,4 +152,77 @@ def sum_of_even(num):
 
 print(sum_of_even(5))
 
-##
+#Declare a function named evens_and_odds .
+# It takes a positive integer as parameter and it counts number of evens and odds in the number.
+
+def evens_and_odds(num):
+    odd_count = 0
+    even_count = 0
+    for i in range(num+1):
+        if i % 2 ==0:
+            even_count += 1
+        elif i % 2!= 0:
+            odd_count +=1
+    return f"Evens: {even_count} , Odds: {odd_count}"
+print(evens_and_odds(100))
+
+#Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
+def factorial(num):
+    result = 1
+    for i in range(num, 0, -1):
+        result *= i
+    return result
+print(factorial(5))
+
+#Call your function is_empty, it takes a parameter and it checks if it is empty or not
+def is_empty(lst):
+    if len(lst) == 0:
+        return "empty"
+    else:
+        return "Not Empty"
+
+print(is_empty([]))
+print(is_empty([1,2,3]))
+
+#Write different functions which take lists. 
+#They should calculate_mean, calculate_median, calculate_mode, calculate_range, calculate_variance, calculate_std (standard deviation).
+
+def calculate_mean(lst):
+    sum_of_values = 0
+    Number_of_values = 0
+    for i in lst:
+        sum_of_values += i
+        Number_of_values+=1
+    mean = sum_of_values / Number_of_values
+    return round(mean,2)
+print(calculate_mean([2, 4, 6, 8, 10]))
+
+def calculate_median(lst):
+    n = len(lst)
+    middle_term = n//2
+    if len(lst) % 2 !=0:
+        median_odd = lst[middle_term]
+        return f"median for odd Values are : {median_odd}"
+    elif len(lst) % 2 ==0:
+        median_even = (lst[middle_term-1] +lst[middle_term]) / 2
+        return f"median for even values are: {median_even}"
+
+print(calculate_median([2,4,6,8,10]))
+print(calculate_median([2,4,6,8,10,12]))
+
+def calculate_mode(lst):
+    mode = lst[0]
+    frequency = 0
+    for i in lst:
+        count = 0
+        for j in lst:
+            if i == j:
+                count +=1
+        if count>frequency:
+            frequency = count
+            mode = i
+    return mode
+print(calculate_mode([1,2,2,2,3,4]))
+
+    
+
