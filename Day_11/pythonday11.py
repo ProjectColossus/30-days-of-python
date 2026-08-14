@@ -224,5 +224,58 @@ def calculate_mode(lst):
     return mode
 print(calculate_mode([1,2,2,2,3,4]))
 
+##Write a function called greet which takes a default argument, name. If no argument is supplied it should print "Hello, Guest!", 
+# otherwise it should greet the person by name.
+
+def greet(name= "Guest!"):
+    print("Hello", name)
+
+greet()
+greet("Alice")
+
+##Create a function called show_args to take an arbitrary number of named arguments and
+#print their names and values.
+
+
+def show_args(**kwargs):
+ #**kwargs collect any number of named arguements into a dictionary 
+    print(kwargs)
+
+show_args(name="Alice", age=30, city="New York")
+    
+# *args - is for arbitary postional arguments 
+
+def show_args(*args):
+    for value in args:
+        print(value)
+
+show_args("Alice", 30,"New York")
+
+##
+
+def show_args(**kwargs):
+    print(kwargs)
+
+show_args(name="Bob", pet="Fluffy, the bunny")
+
+
+##LEVEL 3
+
+##Write a function called is_prime, which checks if a number is prime.
+
+n = int(input())
+
+def is_prime():
+    is_Prime = True
+    if n > 1:
+        for i in range(2,n):
+            if n % i ==0:
+                is_Prime = False
+                break
+        return is_Prime
+
+print(is_prime())
+
+##
     
 
