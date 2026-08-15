@@ -1,6 +1,5 @@
-# 🐍 30 Days of Python
+# Python Programming
 
-> 🚀 A public log of my journey through the **30 Days of Python** challenge as I build a strong foundation in **Software Engineering** and **AI Engineering**.
 
 ---
 
@@ -15,7 +14,7 @@
 
 ---
 
-# 📈 Progress Tracker
+#  Progress Tracker
 
 | Day | Status | Topics |
 |:---:|:------:|:-------|
@@ -30,7 +29,7 @@
 | ✅ 9 | Completed | Conditionals |
 | ✅ 10 | Completed | Loops & Pattern Problems |
 | ✅ 11 | Completed | Functions |
-| ⬜ 12 | Not Started | |
+| ✅ 12 | Completed | Modules |
 | ⬜ 13 | Not Started | |
 | ⬜ 14 | Not Started | |
 | ⬜ 15 | Not Started | |
@@ -68,6 +67,7 @@
 ├── Day-09/
 ├── Day-10/
 ├── Day-11/
+├── Day-12/
 │
 ├── README.md
 ├── LICENSE
@@ -163,6 +163,18 @@
 - Mathematical Functions
 - Using the `math` Module
 
+## ✅ Day 12
+- Python Modules
+- Creating a custom module
+- Importing a custom module
+- Using functions from an imported module
+- `random` module
+- `string` module
+- Generating random user IDs
+- Generating RGB colors
+- Generating hexadecimal colors
+- Combining functions to generate RGB or hexadecimal colors
+
 ---
 
 # 🛠 Tech Stack
@@ -182,11 +194,7 @@ This repository is the first step toward becoming an AI Engineer.
 ```text
 Python
    ↓
-Git & GitHub
-   ↓
 Object-Oriented Programming
-   ↓
-SQL
    ↓
 Data Structures & Algorithms
    ↓
@@ -207,10 +215,10 @@ RAG & AI Applications
 
 # 📊 Current Progress
 
-- ✅ Completed: **11 / 30 Days**
-- ⏳ Remaining: **19 Days**
+- ✅ Completed: **12 / 30 Days**
+- ⏳ Remaining: **18 Days**
 
-**Overall Progress:** **36.7%**
+**Overall Progress:** **40%**
 
 ---
 
