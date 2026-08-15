@@ -259,7 +259,6 @@ def show_args(**kwargs):
 show_args(name="Bob", pet="Fluffy, the bunny")
 
 
-##LEVEL 3
 
 ##Write a function called is_prime, which checks if a number is prime.
 
@@ -275,7 +274,6 @@ def is_prime():
         return is_Prime
 
 print(is_prime())
-
-##
+##\end\
     
 
