@@ -106,3 +106,17 @@ def generate_colors(name, num):
         return rgb
 
 
+##Modules types
+# Math for math utilities
+# re for regular expression 
+# json to work with JSON
+# datetime to work with dates
+# sqlite to use SQLite
+# sqlite3 to use SQLite
+# os for Operation System Utilities
+# random for random Number Generation
+# statistics for statistics utilities
+# requests to perform HTTP network requests
+# http to create http servers 
+# urllib to manage urls
+
