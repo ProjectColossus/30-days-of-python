@@ -30,10 +30,10 @@
 | ✅ 10 | Completed | Loops & Pattern Problems |
 | ✅ 11 | Completed | Functions |
 | ✅ 12 | Completed | Modules |
-| ⬜ 13 | Not Started | |
-| ⬜ 14 | Not Started | |
-| ⬜ 15 | Not Started | |
-| ⬜ 16 | Not Started | |
+| ✅ 13 | Completed | Lambda Functions & Recursion |
+| ✅ 14 | Completed | Date & Time |
+| ✅ 15 | Completed | JSON |
+| ✅ 16 | Completed | Classes & Objects (OOP) |
 | ⬜ 17 | Not Started | |
 | ⬜ 18 | Not Started | |
 | ⬜ 19 | Not Started | |
@@ -173,9 +173,54 @@
 - Generating random user IDs
 - Generating RGB colors
 - Generating hexadecimal colors
-- Combining functions to generate RGB or hexadecimal colors
+- Creating lists of RGB and hexadecimal colors
+- Combining functions with `generate_colors()`
 
----
+## ✅ Day 13
+- Lambda Functions
+- Anonymous Functions
+- Recursion
+- Base Case
+- Recursive Case
+- Recursive Function Calls
+
+## ✅ Day 14
+- `datetime` Module
+- Current Date and Time
+- Date and Time Formatting
+- `strftime()`
+- `strptime()`
+- Date and Time Calculations
+
+## ✅ Day 15
+- JSON (JavaScript Object Notation)
+- JSON Strings
+- `json.loads()`
+- `json.load()`
+- `json.dumps()`
+- `json.dump()`
+- Reading and Writing JSON Files
+- Pretty-printing JSON
+- `indent`
+- `sort_keys`
+
+## ✅ Day 16
+- Object-Oriented Programming (OOP)
+- Classes
+- Objects / Instances
+- Class Attributes
+- Instance Attributes
+- `__init__()`
+- `self`
+- Methods
+- Operator Overloading
+- Dunder Methods
+- Complex Numbers using Classes
+- OOP Practice with a `Student` Class
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
 
 # 🛠 Tech Stack
 
@@ -210,15 +255,6 @@ Large Language Models (LLMs)
    ↓
 RAG & AI Applications
 ```
-
----
-
-# 📊 Current Progress
-
-- ✅ Completed: **12 / 30 Days**
-- ⏳ Remaining: **18 Days**
-
-**Overall Progress:** **40%**
 
 ---
 
