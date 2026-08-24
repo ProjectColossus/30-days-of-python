@@ -37,8 +37,36 @@ Dog1 = Dog("Johnny",7)
 print(Dog1.name) ## Accesses the Instance Attribute
 print(Dog1.species) ## Accesses the Class Attibute
 
+#Example 2
+class Monster:
 
-# Example 2 
+    #Attributes
+    def __init__(self,health,energy):
+        self.health = health
+        self.energy = energy 
+
+    def __str__(self):
+        return f"A Monster with health {self.health} and energy {self.energy} "
+        
+    #methods
+    def attack(self ,amount):
+        print("The Monster has Attacked!")
+        print(f"{amount} damage was dealt")
+        self.energy -= 20
+        print(self.energy)
+
+    def move(self,speed):
+        print(f"the monster has moved with the speed of {speed}kmph")
+
+monster1 = Monster(health=50,energy=90)
+print(monster1.health)
+print(monster1)
+
+
+
+
+
+# Example 3
 
 class House: #(class keyword used to define the bluprint name) 
 
@@ -180,9 +208,6 @@ print("-----------------------------------------------")
 s2.describe()       # Varun, Grade 11, Marks: 38
 print(s2.is_passing())     # False
 print(s2.get_grade())      # F
-
-
-
 
 
 

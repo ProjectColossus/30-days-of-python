@@ -61,3 +61,16 @@ print(f"Days Since 1 jan 1970: {difference}")
 # Time Series Analysis == Store and compare dates/times of data points
 #Activity timestamps == Record exactly when a user logged in, uploaded a file, etc.
 #Blog posts ==	Store when a post was published
+
+
+
+#Calender Module
+import calendar
+
+month,day , year = map(int,input().split())
+days = calendar.weekday(year,month,day)
+
+week = ["MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY","SUNDAY"]
+#since the output is given in index so initiated a list 
+
+print(week[days]) #prints the weekday when the output is given from days
