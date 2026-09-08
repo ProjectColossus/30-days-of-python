@@ -90,3 +90,11 @@ print(even_num)
 #2. It filters out the even numbers from the numbers and then maps them.
 #3. It gives it out as a list.
 #numbers → filter → map → list reads it from rigth to left
+
+
+
+##
+#Write a lambda function which can solve a slope or y-intercept of linear functions.
+
+slope = lambda x1,x2,y2,y1 : (y2-y1)/(x2-x1)
+print(slope(6,7,5,4))

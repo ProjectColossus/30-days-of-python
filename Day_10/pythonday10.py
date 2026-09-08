@@ -172,4 +172,3 @@ for country in countries_data:
 
 #Find the ten most spoken languages from the data
 #Find the 10 most populated countries in the world
-

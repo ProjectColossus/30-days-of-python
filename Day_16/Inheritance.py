@@ -31,3 +31,40 @@ d.eating()
 d.sound()
 
 #EXAMPLE 2
+## in this One Ill Talk About the super().__init__() method
+#super() function is used to call methods from the Parent class(Super Class)
+#__init__ is used after the super() called the inherited attributs from the parent class
+
+class Animal:
+
+    def __init__(self,name,sound):
+        self.name = name
+        self.sound = sound
+
+    def info(self):
+        print("Animal Name:",self.name)
+        print("Animal Makes a Sound:",self.sound)
+
+class Dog(Animal):
+
+    def __init__(self,name,breed,sound):
+        super().__init__(name, sound)
+        self.breed = breed
+
+    def details(self):
+        print(f"Dog name:{self.name}")
+
+    def show_breed(self):
+        print(f"Dog breed:{self.breed}")
+
+    def Dog_sound(self):
+        print("Woof!",self.sound)
+
+d = Dog(name="Johnny",breed= "Husky", sound= "Woof!")
+d.info()
+d.show_breed()
+d.Dog_sound()
+
+
+
+
